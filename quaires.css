@@ -1,0 +1,36 @@
+/* 1000 px */
+@media (max-width: 63em) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+    column-gap: 2rem;
+  }
+  .card {
+    grid-row: span 1;
+  }
+  .karma-card {
+    grid-row: 2/3;
+  }
+}
+
+/* 704 px */
+@media (max-width: 44em) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .main-section {
+    align-items: center;
+  }
+
+  .karma-card {
+    grid-row: 3;
+  }
+}
+
+/* 375px */
+@media (max-width: 23.5em) {
+}
